@@ -1,0 +1,9 @@
+{
+  "name": "ico",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "openzeppelin-solidity": "^2.2.0"
+  }
+}
