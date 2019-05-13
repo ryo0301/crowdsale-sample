@@ -4,7 +4,7 @@ const SampleCoinCrowdsale = artifacts.require("SampleCoinCrowdsale");
 module.exports = function(deployer, network, accounts) {
   deployer.then(async () => {
     const rate = 1;
-    const wallet = accounts[0];
+    const wallet = accounts[1];
     const coin = await SampleCoin.deployed();
     const sale = await deployer.deploy(SampleCoinCrowdsale, rate, wallet, coin.address);
 
